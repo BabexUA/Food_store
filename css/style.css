@@ -28,8 +28,8 @@
     left: 375px;
 }
 
-.header {
-    padding-top: 26px;
+header {
+    padding: 26px 0;
 }
 
 .head {
@@ -86,4 +86,42 @@
 
 .menu-image:first-child {
     padding: 18px;
+}
+
+.main {
+    max-width: 1110px;
+    margin: auto;
+    background: url("../images/1st-image.png") no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 170px;
+}
+
+.main-title {
+    margin-left: 55px;
+    margin-bottom: 5px;
+    font-family: 'Cormorant', serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.main-p {
+    font-family: Popins, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    margin-left: 55px;
+    margin-bottom: 40px;
+}
+
+.main-link {
+    margin-left: 55px;
+    text-decoration: none;
+    font-family: Popins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 36px 10px 36px;
+    color: #FFFFFF;
+    background-color: #FF8126;
+    border-radius: 5px;
+
 }
