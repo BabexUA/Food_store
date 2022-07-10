@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: # #E5E5E5;
+    background-color: #E5E5E5;
 }
 
 .absolute {
@@ -22,7 +22,7 @@ body {
     padding: 15px 0;
 }
 
-.absolute-link{
+.absolute-link {
     text-decoration: none;
     color: #1F1F1F;
     font-family: Popins, sans-serif;
@@ -32,6 +32,66 @@ body {
 }
 
 .absolute-div {
-position: relative;
+    position: relative;
     left: 325px;
+}
+
+header {
+    margin: auto;
+    max-width: 1110px;
+    padding-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    margin-left: 55px;
+    margin-right: 60px;
+}
+
+.navigation {
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    margin-right: 7px;
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+.mr-40 {
+    margin-right: 40px;
+}
+
+.list-image {
+    margin-right: 40px;
+}
+
+.menu {
+    display: flex;
+    margin-right: 10px;
+}
+
+.menu-link {
+    border: 1px solid #BFBFBF;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+
+.menu-image {
+    height: 24px;
+    width: 24px;
+    padding: 15px;
+}
+
+.menu-image:first-child {
+    padding: 18px;
 }
