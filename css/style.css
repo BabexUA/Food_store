@@ -3,17 +3,9 @@
     padding: 0;
 }
 
-body {
-    background-color: #E5E5E5;
-}
-
 .absolute {
-    max-width: 1110px;
-    margin: auto;
     background-color: #C2E8CE;
     height: 50px;
-
-
 }
 
 .absolute-block {
@@ -33,27 +25,24 @@ body {
 
 .absolute-div {
     position: relative;
-    left: 325px;
+    left: 375px;
 }
 
-header {
-    margin: auto;
-    max-width: 1110px;
+.header {
     padding-top: 26px;
+}
+
+.head {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    background-color: #FFFFFF;
+    max-width: 1110px;
+    margin: auto;
 }
 
 .logo {
     margin-left: 55px;
     margin-right: 60px;
-}
-
-.navigation {
-
 }
 
 .list {
@@ -65,6 +54,9 @@ header {
     margin-right: 7px;
     text-decoration: none;
     color: #1F1F1F;
+    font-family: Popins, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .mr-40 {
