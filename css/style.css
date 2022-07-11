@@ -17,7 +17,7 @@
 .absolute-link {
     text-decoration: none;
     color: #1F1F1F;
-    font-family: Popins, sans-serif;
+    font-family: 'Poppins';
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
@@ -25,7 +25,7 @@
 
 .absolute-div {
     position: relative;
-    left: 375px;
+    left: 350px;
 }
 
 header {
@@ -54,7 +54,7 @@ header {
     margin-right: 7px;
     text-decoration: none;
     color: #1F1F1F;
-    font-family: Popins, sans-serif;
+    font-family: 'Poppins';
     font-size: 15px;
     font-weight: 500;
 }
@@ -97,7 +97,7 @@ header {
     padding-bottom: 170px;
 }
 
-.main-title {
+.title {
     margin-left: 55px;
     margin-bottom: 5px;
     font-family: 'Cormorant', serif;
@@ -106,7 +106,7 @@ header {
 }
 
 .main-p {
-    font-family: Popins, sans-serif;
+    font-family: 'Poppins';
     font-size: 26px;
     font-weight: 300;
     margin-left: 55px;
@@ -123,5 +123,71 @@ header {
     color: #FFFFFF;
     background-color: #FF8126;
     border-radius: 5px;
-
 }
+
+.offer {
+    max-width: 1110px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.title.d-flex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.offers {
+    margin-left: 10px;
+    color: #FF8126;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.option-container {
+    background-color: #F7F5F0;
+}
+
+.option-item {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.option-item:first-of-type {
+    margin-bottom: 5px;
+}
+
+.option-item:last-child {
+    margin-top: 20px;
+    margin-bottom: 37px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF8126;
+}
+
+.discount {
+    display: flex;
+    align-items: flex-end;
+    color: #656565;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+.bg {
+    background-color: #FF8126;
+    padding: 6px 64px 7px 64px;
+    border-radius: 5px;
+}
+
